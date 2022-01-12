@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo crud</title>
+</head>
+<body>
+    <form id="task-form">
+        <label for="task">Task</label>
+        <input type="text" name="task" id="task" placeholder="Enter task">
+
+        <label for="description">Description</label>
+        <textarea name="description" id="task-description" cols="30" rows="10" placeholder="Enter description"></textarea>
+
+        <button id="btnAddTask">Add task</button>
+    </form>
+
+    <div id="task-container"></div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
