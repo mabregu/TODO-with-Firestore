@@ -1,4 +1,4 @@
-import { saveTask, getTasks, onTasks } from '../firebase.js';
+import { saveTask, getTasks, onTasks } from './services/firebase.js';
 
 const taskContainer = document.querySelector('#task-container');
 
