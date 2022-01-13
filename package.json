@@ -1,0 +1,30 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mabregu/TODO-with-Firestore.git"
+  },
+  "keywords": [],
+  "author": "Martin Abregú",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mabregu/TODO-with-Firestore/issues"
+  },
+  "homepage": "https://github.com/mabregu/TODO-with-Firestore#readme",
+  "dependencies": {
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
